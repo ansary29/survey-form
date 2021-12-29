@@ -1,0 +1,54 @@
+.checked {
+    color: orange;
+  }
+
+table{
+    margin-left: 15px;
+    border-collapse:collapse;
+    border-radius : 80%;
+}
+.exp{
+    padding-top: 20px;
+}
+
+th {
+    margin-left:1000px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+td{
+    text-align:center;
+    padding : 10px;
+    text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+td:first-child,th:first-child {
+  border-radius: 7px 0 0 7px;
+}
+td:last-child,th:last-child {
+  border-radius: 0 7px 7px 0;
+}
+
+.exptxt2{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.addcmt{
+    margin-left: 15px;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+textarea{
+    margin-top:5px;
+    display: block;
+}
+
+.button{
+    margin-left: 15px;
+    margin-bottom: 20px;
+} 
